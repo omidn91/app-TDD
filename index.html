@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inches to Units Converter</title>
+</head>
+<body>
+    <h1>Inches to Units Converter</h1>
+    <label for="inches">Inches:</label>
+    <input type="number" id="inches" step="any">
+    <label for="unit">Unit:</label>
+    <select id="unit">
+        <option value="-mm">mm</option>
+        <option value="-cm">cm</option>
+        <option value="-m">m</option>
+    </select>
+    <button onclick="convert()">Convert</button>
+    <p id="result"></p>
+    <script src="convert.js"></script>
+</body>
+</html>
